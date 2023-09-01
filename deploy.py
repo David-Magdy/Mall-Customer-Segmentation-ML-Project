@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-from streamlit_lottie import st_lottie
+import streamlit_lottie as stl
 import joblib
 import numpy as np
 
@@ -97,7 +97,7 @@ with st.container():
     with right_column:
          lottie_url = "https://lottie.host/42dcafd6-714f-4406-9398-f1d5704f33ba/Y7reWlNnWr.json"
 
-         st_lottie(lottie_url)
+         stl.st_lottie(lottie_url)
         
         
 
