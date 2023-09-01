@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-import streamlit_lottie as stl
+##import streamlit_lottie as stl
 import joblib
 import numpy as np
 
@@ -95,9 +95,9 @@ with st.container():
          
     
     with right_column:
-         lottie_url = "https://lottie.host/42dcafd6-714f-4406-9398-f1d5704f33ba/Y7reWlNnWr.json"
-
-         stl.st_lottie(lottie_url)
+          st.write('''
+                                 By understanding your customer's needs and preferences, you can create a more personalized and relevant customer experience.
+                 ''')
         
         
 
